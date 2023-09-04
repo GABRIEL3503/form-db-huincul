@@ -1,9 +1,9 @@
 h1{
-  font-size: 25px;
+  font-size: 23px;
   margin-left: 25px;
   letter-spacing: 2px; /* Ajusta este valor según tus necesidades */
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
   .form-container {
     outline: none;
