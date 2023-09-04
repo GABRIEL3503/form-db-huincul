@@ -5,6 +5,7 @@ h1{
 
   font-family: 'Roboto', sans-serif;
 }
+
   .form-container {
     outline: none;
     border-color: #00d9ff;
@@ -131,7 +132,9 @@ backdrop-filter: blur(2px);
     justify-content: center;
   }
   body{
-    background-image: url(./Icon\ Grid.svg);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 33%, rgba(38,38,38,1) 96%);
+    /* background-image: url(./Icon\ Grid.svg); */
   }
   
   .form-group.flex-row {

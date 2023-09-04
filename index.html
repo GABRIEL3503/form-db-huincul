@@ -60,6 +60,8 @@
                 <p class="signin">Sos parte de Huincul Turismo? <a href="#">Ingresar</a> </p>
             </form>
             <img src="Iso-Logo Horizontal VC.png" alt="">
+            <button id="changeBackground">Cambiar Fondo</button>
+
         </div>
 
     </span>
@@ -82,6 +84,24 @@
                 onClick: function () { } // Callback after click
             }).showToast(); // Cambiado a showToast
         }
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+  const body = document.querySelector('body');
+  const changeBackgroundButton = document.getElementById('changeBackground');
+
+  let isGradient = true; // Variable para rastrear el estado actual del fondo
+
+  changeBackgroundButton.addEventListener('click', function() {
+    if (isGradient) {
+      body.style.background = "url('./Icon Grid.svg')";
+    } else {
+      body.style.background = "linear-gradient(90deg, rgba(2,0,36,1) 33%, rgba(38,38,38,1) 96%)";
+    }
+    isGradient = !isGradient; // Cambia el estado del fondo
+  });
+});
 
     </script>
 </body>
